@@ -20,8 +20,8 @@ console.log(body);
 hambar.forEach(element => {
     element.addEventListener('click', (e)=>{
         if(navList.style.height == ''){
-        navList.style.height = '430px';
-        rightNav.style.height = rightNav.scrollHeight + 'px';
+        navList.style.height = '330px';
+        rightNav.style.height = '35px';
         setTimeout(() => {
             upArrow.style.display = 'flex';
             
@@ -32,7 +32,6 @@ hambar.forEach(element => {
         }
     })
 });
-
 
 console.log(navbar.scrollHeight);
 
